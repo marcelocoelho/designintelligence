@@ -1,5 +1,5 @@
 
-##Instructions
+Instructions
 
 1- Clone the repo
 
@@ -13,7 +13,7 @@
 
 
 
-#Exercise 1 - Design Brief
+Exercise 1 - Design Brief
 
 Create a drawing in p5.js that acts as input mask for a GAN (generative adversarial network).  
 
