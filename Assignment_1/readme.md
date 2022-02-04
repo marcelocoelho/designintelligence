@@ -1,3 +1,5 @@
+Exercise 1 - Design Brief
+
 Create a drawing in p5.js that acts as input mask for a GAN (generative adversarial network).  
 
 Add 2 images to the presentation slide deck, a segmentation mask and its generated output, and be ready to talk about them next class (1 min max). 
