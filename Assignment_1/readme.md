@@ -1,14 +1,19 @@
 
-Instructions
+##Instructions
 
 1- Clone the repo
+
 2- Download the models https://www.dropbox.com/s/zkjuk9lfshs53qh/model.zip?raw=1
+
 3- Uncompress the file inside the folder Assignment 1
+
 4- Open the folder in VS Code
+
 5- Use live server to start the application. 
 
 
-Exercise 1 - Design Brief
+
+#Exercise 1 - Design Brief
 
 Create a drawing in p5.js that acts as input mask for a GAN (generative adversarial network).  
 
