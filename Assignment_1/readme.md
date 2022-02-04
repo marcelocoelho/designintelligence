@@ -1,5 +1,13 @@
 Exercise 1 - Design Brief
 
+Instructions
+
+1- Clone the repo
+2- Download the models https://www.dropbox.com/s/zkjuk9lfshs53qh/model.zip?raw=1
+3- Uncompress the file inside the folder Assignment 1
+4- Open the folder in VS Code
+5- Use live server to start the application. 
+
 Create a drawing in p5.js that acts as input mask for a GAN (generative adversarial network).  
 
 Add 2 images to the presentation slide deck, a segmentation mask and its generated output, and be ready to talk about them next class (1 min max). 
