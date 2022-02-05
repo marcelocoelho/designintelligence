@@ -11,7 +11,8 @@ Instructions
 
 5- Use live server to start the application. 
 
-
+A quick example on how to use the app check this video 
+https://www.dropbox.com/s/yj90oeqfkjfv9ki/How_to_use.mp4?raw=1
 
 Exercise 1 - Design Brief
 
