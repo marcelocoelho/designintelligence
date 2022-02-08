@@ -98,6 +98,10 @@ function setup() {
 // Draw on the canvas when mouse is pressed
 function draw() {
 
+  /////////////////////////////////
+  // You can draw here
+  //rect(0,0,100,100);
+
   //check if the left mouse button is pressed
   if (mouseIsPressed) {
     //draw with current color and current strokeWeight
