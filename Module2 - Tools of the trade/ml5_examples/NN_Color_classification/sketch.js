@@ -1,8 +1,11 @@
 /*///////////////////////////////
 
-Simple Color Classifier
+Classification Example for Design Intelligence at MIT
+Based on ML5 examples 
+Code modified by Diego Pinochet
 
 //////////////////////////////*/
+
 
 // Main neural network object
 let neuralNetwork;
