@@ -1,9 +1,18 @@
-let neuralNetwork;
-let submitButton;
+/*----------------------------------
 
-let rSlider, gSlider, bSlider;
+Simple Color Classifier
+
+----------------------------------*/
+
+
+let neuralNetwork;
 let labelP;
 let lossP;
+
+// UI 
+let submitButton;
+let rSlider, gSlider, bSlider;
+
 
 function setup() {
   // Crude interface
