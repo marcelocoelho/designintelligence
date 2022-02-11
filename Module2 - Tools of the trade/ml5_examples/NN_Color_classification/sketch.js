@@ -1,6 +1,6 @@
 /*///////////////////////////////
 
-Classification Example for Design Intelligence at MIT
+Classification example for Design Intelligence at MIT
 Based on ML5 examples 
 Code modified by Diego Pinochet
 
