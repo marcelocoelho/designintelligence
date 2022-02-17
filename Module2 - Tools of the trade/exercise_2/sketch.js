@@ -79,6 +79,9 @@ function draw() {
     drawKeypoints();  // draws key points of the skeleton
     drawSkeleton();   // draws stick figure
   }
+
+console.log(poses);
+
   // Note: you can call both if statements to draw all keypoints and the skeletons
   }
 

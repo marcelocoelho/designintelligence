@@ -1,7 +1,7 @@
-/*
+/* ///////////////////////////////////////////
 CUSTOM CNN classification with Webcam in ML5
-code by Dieg Pinochet
-*/
+code by Diego Pinochet
+////////////////////////////////////////////*/
 
 //initial parameters
 let nn;
@@ -22,17 +22,21 @@ function setup() {
 
   video = createCapture(VIDEO);
   video.size(64, 64)
-
-  //create buttons
-  trainBtn = createButton('train')
-  trainBtn.mousePressed(train)
-  addDataBtn = createButton('addData')
-  addDataBtn.mousePressed(addData)
-  resultLabel = createDiv('What I see:')
+  video.hide();
 
   //here you enter the label prompt for class creation on the go
+  labelCreation = createDiv('Before adding samples, please add a label.')
+  resultLabel = createDiv('I see:')
   labelInput = createInput();
-  labelCreation = createDiv('Before adding samples, please add a label')
+  
+  //create buttons
+  linebreak = createP(" ")
+  addDataBtn = createButton('Add Data')
+  addDataBtn.mousePressed(addData)
+
+  linebreak = createP(" ")
+  trainBtn = createButton('Train Network')
+  trainBtn.mousePressed(train)
 
 
   //custom network creation 
