@@ -159,8 +159,8 @@ function addSample() {
             const keypoint = prediction.landmarks[j];
             let x = keypoint[0];
             let y = keypoint[1];
-            let z = keypoint[2];
-            console.log(z);
+            //let z = keypoint[2];
+            //console.log(z);
 
             //calculate the centroid of the hand's bounding box 
             let vec1 = createVector(prediction.boundingBox.bottomRight[0], prediction.boundingBox.bottomRight[1]);
