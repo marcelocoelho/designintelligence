@@ -1,6 +1,7 @@
 /* ///////////////////////////////////////////
-CUSTOM CNN classification with Webcam in ML5
-code by Diego Pinochet
+Custom CNN classification with webcam in ML5
+Code by Diego Pinochet
+Design Intelligence - MIT
 ////////////////////////////////////////////*/
 
 //initial parameters
@@ -116,7 +117,6 @@ function addData(){
 }
 
 function train(){
-  // nn.normalizeData();
 
   const TRAINING_OPTIONS = {
     batchSize: 16,
